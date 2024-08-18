@@ -5,9 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      spacing: {
-        '30': '7.5rem', // Add custom spacing value
-      },
+      
+        fontFamily :{
+          sona : ["Great Vibes"],
+        }
+    
 
     },
   },
