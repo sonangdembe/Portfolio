@@ -31,15 +31,16 @@ const Navbar = () => {
                             About me</Link>
                 </li>
                 <li>
-                    <Link to="/Skills"
-                        className="block py-2  text-white hover:scale-110 duration-100   pl-3 pr-4 bg-white-700 rounded 
-                        lg:bg-transparent">Skills</Link>
-                </li>
-                <li>
                     <Link to="/Portfolio"
                         className="block py-2   text-white hover:scale-110 duration-100 pl-3 pr-4 bg-white-700 rounded 
                         lg:bg-transparent">Portfolio</Link>
                 </li>
+                <li>
+                    <Link to="/Skills"
+                        className="block py-2  text-white hover:scale-110 duration-100   pl-3 pr-4 bg-white-700 rounded 
+                        lg:bg-transparent">Skills</Link>
+                </li>
+               
                 <li>
                     <Link to="/Contact"
                         className="block py-2  text-white cursor-pointer hover:scale-110 duration-100  pl-3 pr-4 bg-white-700 rounded 
@@ -72,15 +73,16 @@ const Navbar = () => {
                             About me</Link>
                 </li>
                 <li>
-                    <Link to="/Skills"
-                        className="block py-2 text-4xl  text-black hover:scale-110 duration-100   pl-3 pr-4 bg-white-700 rounded 
-                        lg:bg-transparent">Skills</Link>
-                </li>
-                <li>
                     <Link to="/Portfolio"
                         className="block py-2  text-4xl text-black hover:scale-110 duration-100 pl-3 pr-4 bg-white-700 rounded 
                         lg:bg-transparent">Portfolio</Link>
                 </li>
+                <li>
+                    <Link to="/Skills"
+                        className="block py-2 text-4xl  text-black hover:scale-110 duration-100   pl-3 pr-4 bg-white-700 rounded 
+                        lg:bg-transparent">Skills</Link>
+                </li>
+                
                 <li>
                     <Link to="/Contact"
                         className="block py-2 text-4xl text-black cursor-pointer hover:scale-110 duration-100  pl-3 pr-4 bg-white-700 rounded 

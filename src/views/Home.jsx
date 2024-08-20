@@ -3,6 +3,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
 import SocialLinks from '../components/SocialLinks';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
 
 const Home = () => {
   return (
@@ -35,6 +37,8 @@ const Home = () => {
             />
           </div>
         </div>
+        <AboutMe/>
+        <Portfolio/>
       </div>
     </>
   );
