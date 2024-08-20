@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Button = ({ text, className,onClick}) => {
+const Button = ({ text, className, onClick, children }) => {
   return (
-    <>
-    <button className={className} onClick={onClick}>
-      {text} {/* Display the button text */}
+    <button className={`flex items-center ${className}`} >
+      {children}
+      {text}
     </button>
-    </>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
