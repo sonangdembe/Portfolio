@@ -6,7 +6,7 @@ import Home from './views/Home';
 import AboutMe from './views/AboutMe';
 import Portfolio from './views/Portfolio';
 import Contact from './views/Contact';
-import Skills from './views/Skills';
+import Experience from './views/Experience';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
   <Route path='/AboutMe' element={<AboutMe/>}/>
   <Route path='/Contact' element={<Contact/>}/>
   <Route path='/Portfolio' element={<Portfolio/>}/>
-  <Route path='/Skills' element={<Skills/>}/>
+  <Route path='/experience' element={<Experience/>}/>
   </Routes>
   </BrowserRouter>
   </>

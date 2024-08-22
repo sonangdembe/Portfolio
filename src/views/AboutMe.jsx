@@ -9,18 +9,15 @@ const AboutMe = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-400'>About</p>
         </div>
         <p className='text-xl mt-20'>
-        Visible Portion: The smaller negative margin allows the left edge of the list item to be slightly off-screen but ensures that the icon is visible.
-Hover Effect: The hover effect will now move the list item more clearly into view without hiding the icon.
-Text Label: Adding text next to the icon gives context and ensures better visibility
+        I’m a passionate and dedicated React developer with a background in nodejs, educational technology. My journey into the world of web development began through bootcamps, where I honed my skills in creating dynamic and responsive web applications. I'm further deepening my expertise in React, exploring the latest advancements, and continuously challenging myself with new projects.
+
+
+
         </p>
         <br/>
         <p className='text-xl'>
-        Reduced Negative Margin:
+        In addition to my technical pursuits, nurturing the next generation of tech enthusiasts. Collaboration and continuous learning are at the heart of my approach, and I'm always open to working on innovative React projects with like-minded developers. My goal is to build impactful digital solutions while growing as a developer and contributing to the tech community.
 
-Changed ml This ensures that a portion of the list item is visible, including part of the icon, even before the user hovers over it.
-Added Text Next to Icons:
-
-I included a  with text next to each icon for better visibility and context.
         </p>
       </div>
     </div>
