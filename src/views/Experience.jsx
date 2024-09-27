@@ -1,10 +1,5 @@
 import React from 'react'
-// import html from './images/html.png'
-// import css from './public/images/css.png'
-// import js from './public/images/js.png'
-// import reactImg from './public/images/react.png'
-// import tailwind from './public/images/tailwind.png'
-// import github from './public/images/github.png'
+
 
 
 const Experience = () => {
