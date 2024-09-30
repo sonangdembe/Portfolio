@@ -1,15 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .fade-in-out {
+        animation: fadeInOut 3s ease-in-out infinite; /* Continuous fade-in and fade-out */
+    }
 
-@layer base {
-    html {
-        font-family: "Raleway", sans-serif;
+    @keyframes fadeInOut {
+        0%, 100% {
+            opacity: 0.8; /* Start and end slightly faded */
+        }
+        50% {
+            opacity: 1; /* Fully visible in the middle */
+        }
+    }
+
+    .zoom-in-out {
+        animation: zoom-in 2s infinite alternate; /* Continuous zoom in and out */
+    }
+
+    @keyframes zoom-in {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1); /* Adjust scale for zoom-in effect */
+        }
+        100% {
+            transform: scale(1); /* Back to original */
+        }
     }
 }
